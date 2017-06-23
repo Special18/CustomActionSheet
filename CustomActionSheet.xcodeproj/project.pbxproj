@@ -14,6 +14,8 @@
 		670E4A021EFCD72600E3587D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670E4A011EFCD72600E3587D /* Assets.xcassets */; };
 		670E4A051EFCD72600E3587D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670E4A031EFCD72600E3587D /* LaunchScreen.storyboard */; };
 		670E4A181EFCD87C00E3587D /* MRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E4A171EFCD87C00E3587D /* MRActionSheet.m */; };
+		670E4A1B1EFCDEDD00E3587D /* ActionSheet_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670E4A191EFCDEDD00E3587D /* ActionSheet_line@2x.png */; };
+		670E4A1C1EFCDEDD00E3587D /* ActionSheet_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670E4A1A1EFCDEDD00E3587D /* ActionSheet_HL@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		670E4A061EFCD72600E3587D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		670E4A161EFCD87C00E3587D /* MRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRActionSheet.h; sourceTree = "<group>"; };
 		670E4A171EFCD87C00E3587D /* MRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRActionSheet.m; sourceTree = "<group>"; };
+		670E4A191EFCDEDD00E3587D /* ActionSheet_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ActionSheet_line@2x.png"; sourceTree = "<group>"; };
+		670E4A1A1EFCDEDD00E3587D /* ActionSheet_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ActionSheet_HL@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			children = (
 				670E4A161EFCD87C00E3587D /* MRActionSheet.h */,
 				670E4A171EFCD87C00E3587D /* MRActionSheet.m */,
+				670E4A191EFCDEDD00E3587D /* ActionSheet_line@2x.png */,
+				670E4A1A1EFCDEDD00E3587D /* ActionSheet_HL@2x.png */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670E4A1C1EFCDEDD00E3587D /* ActionSheet_HL@2x.png in Resources */,
 				670E4A051EFCD72600E3587D /* LaunchScreen.storyboard in Resources */,
 				670E4A021EFCD72600E3587D /* Assets.xcassets in Resources */,
+				670E4A1B1EFCDEDD00E3587D /* ActionSheet_line@2x.png in Resources */,
 				670E4A001EFCD72600E3587D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +334,7 @@
 				670E4A0B1EFCD72600E3587D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
